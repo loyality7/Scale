@@ -1,18 +1,33 @@
-# Scale
+<p align="center">
+  <img src="./assets/icon.png" width="128" height="128" alt="Scale Icon" />
+</p>
 
-A Windows desktop application for exploring mathematical fractals and exporting high-resolution 4K images. Built with C# and .NET 10 (WPF).
+<h1 align="center">Scale</h1>
 
-![Julia Set Screenshot](./assets/julia-set.jpg)
+<p align="center">
+  A Windows desktop application for exploring mathematical fractals and exporting high-resolution 4K images. Built with C# and .NET 10 (WPF).
+</p>
+
+<p align="center">
+  <a href="https://github.com/loyality7/Scale/actions/workflows/build-and-release.yml"><img src="https://img.shields.io/github/actions/workflow/status/loyality7/Scale/build-and-release.yml?branch=main&style=flat-square" alt="Build Status" /></a>
+  <img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square&logo=dotnet" alt=".NET 10" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows" alt="Platform: Windows" />
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License: MIT" /></a>
+</p>
 
 ## Screenshots
 
-| Newton-Raphson | Rational Dynamics |
+| Julia Set | Newton-Raphson |
 | :---: | :---: |
-| ![Newton-Raphson](./assets/newton-raphson.jpg) | ![Rational Dynamics](./assets/rational-dynamics.jpg) |
+| ![Julia Set](./assets/julia-set.jpg) | ![Newton-Raphson](./assets/newton-raphson.jpg) |
 
-| Algebraic Fractal | Custom Equation |
+| Rational Dynamics | Custom Equation |
 | :---: | :---: |
-| ![Algebraic](./assets/algebraic-heart.jpg) | ![Custom Equation](./assets/custom-equation.jpg) |
+| ![Rational Dynamics](./assets/rational-dynamics.jpg) | ![Custom Equation](./assets/custom-equation.jpg) |
+
+| Algebraic Fractal |
+| :---: |
+| ![Algebraic](./assets/algebraic-heart.jpg) |
 
 ## Features
 
