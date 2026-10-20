@@ -3,6 +3,9 @@
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+publish/
+*.zip
+*.exe
 
 # Visual Studio / VS Code / JetBrains
 .vs/

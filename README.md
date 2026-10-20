@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/loyality7/Scale/releases/latest"><img src="https://img.shields.io/github/v/release/loyality7/Scale?style=flat-square&label=Release" alt="Latest Release" /></a>
   <a href="https://github.com/loyality7/Scale/actions/workflows/build-and-release.yml"><img src="https://img.shields.io/github/actions/workflow/status/loyality7/Scale/build-and-release.yml?branch=main&style=flat-square" alt="Build Status" /></a>
   <img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square&logo=dotnet" alt=".NET 10" />
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows" alt="Platform: Windows" />
@@ -58,7 +59,11 @@
 
 ## Running the Application
 
-### Option 1: Run with .NET SDK
+### Option 1: Download Standalone Executable (Recommended)
+
+Download `ScaleWindows.exe` directly from the [latest release](https://github.com/loyality7/Scale/releases/latest). It runs on 64-bit Windows without installing .NET.
+
+### Option 2: Run with .NET SDK
 
 Requires the .NET 10 SDK.
 
@@ -68,13 +73,13 @@ cd Scale
 dotnet run
 ```
 
-### Option 2: Build Release
+### Option 3: Build Release
 
 ```powershell
 dotnet build -c Release
 ```
 
-### Option 3: Publish Standalone Executable
+### Option 4: Publish Standalone Executable
 
 To produce a single, self-contained executable that runs on 64-bit Windows without needing .NET installed:
 
