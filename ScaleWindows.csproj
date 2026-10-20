@@ -12,9 +12,11 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <Product>Scale</Product>
-    <Company>Scale</Company>
+    <Authors>loyality7</Authors>
+    <Company>loyality7</Company>
     <Description>High-performance mathematical fractal explorer and 4K wallpaper creator.</Description>
-    <Copyright>Copyright © 2026</Copyright>
+    <Copyright>Copyright © 2026 loyality7</Copyright>
+    <RepositoryUrl>https://github.com/loyality7/Scale</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

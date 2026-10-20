@@ -1,8 +1,11 @@
 # Scale (Windows Edition) — Real Mathematical Art Generator
 
+[![Build & Release](https://github.com/loyality7/Scale/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/loyality7/Scale/actions/workflows/build-and-release.yml)
+[![Author](https://img.shields.io/badge/Author-loyality7-blue)](https://github.com/loyality7)
+
 A high-performance Windows desktop application built with **C# and .NET 10 (WPF)** for exploring, manipulating, and exporting **real mathematical equation art**.
 
-Ported from Michael Fogleman's macOS project and expanded to support multiple families of real deterministic equations (fractals, root-finding dynamics, transcendental trigonometric forms, and geometric roulette curves).
+Ported from Michael Fogleman's macOS project and expanded by **[@loyality7](https://github.com/loyality7)** to support multiple families of real deterministic equations (fractals, root-finding dynamics, transcendental trigonometric forms, and geometric roulette curves).
 
 ---
 
@@ -76,3 +79,11 @@ To create a standalone portable `.exe` that runs on any Windows machine without 
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
 ```
 The output will be placed in `bin\Release\net10.0-windows\win-x64\publish\ScaleWindows.exe`.
+
+---
+
+## Author & Project Info
+
+* **Author:** [@loyality7](https://github.com/loyality7)
+* **GitHub Repository:** [https://github.com/loyality7/Scale](https://github.com/loyality7/Scale)
+* **Copyright:** © 2026 loyality7. All rights reserved.
